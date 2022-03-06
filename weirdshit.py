@@ -19,6 +19,7 @@ def get_cavity(data_len):
         else:
             spaces += '\t'
             data_len -= 8
+            
     return spaces
     
 def weirdShit(): 
