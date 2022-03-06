@@ -12,7 +12,7 @@
 <br>
 
 > Can also be used with another data generator with threading
-<img src="https://i.imgur.com/leNc2kj.gif">
+<img width="450" src="https://i.imgur.com/leNc2kj.gif">
 
 ---
 <br>
