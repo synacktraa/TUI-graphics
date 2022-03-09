@@ -11,7 +11,7 @@ def data_generate(data):
         This is just an example file for illustration and showcasing
     """
 
-    file_list = ["joemama", "st", "sinister", "heheboi", "whyareyougay", "spaghetti"]
+    file_list = ["joemama", "steal_your_momma", "sinister", "heheboi", "whyareyougay", "spaghetti"]
     ext_list = ["png", "jpg", "mp4", "mov"]
     
 
