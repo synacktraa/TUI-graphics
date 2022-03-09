@@ -77,5 +77,3 @@ def weirdShit(data_string="[+] loading script", schedule=3, thrust=4):
             stdout.flush()
             time.sleep(0.5/thrust)
 
-if __name__ == '__main__':
-    weirdShit()
