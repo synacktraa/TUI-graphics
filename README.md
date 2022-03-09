@@ -12,7 +12,7 @@
 <p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=IBM+Plex+Mono&color=%23C4B9F8&size=35&center=true&width=1000&height=150&lines=cool+shit,+right?"/></p>
 
 > Can also be used with another data generator with threading
-<img width=400 src="https://i.imgur.com/pm2AzvG.gif">
+<img width=500 src="https://i.imgur.com/pm2AzvG.gif">
 
 ---
 <br>
