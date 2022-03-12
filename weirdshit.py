@@ -31,16 +31,16 @@ cdict = {
 RESET = '\u001b[0m'
 	
 
-def weird_stdout(data, color=cdict['LIGHTWHITE_EX']):
+def stdout_cw(data, color=cdict['LIGHTWHITE_EX']):
 
     stdout.write(f"{color}{data}{RESET}")
 
-def weird_print(data, color=cdict['LIGHTWHITE_EX']):
+def print_cw(data, color=cdict['LIGHTWHITE_EX']):
 
         print(f"{color}{data}{RESET}")    
     
 
-def weirdShit(data_string="[+] loading script", schedule=3, thrust=4): 
+def graphic_gen(data_string="[+] loading script", schedule=3, thrust=4): 
 
     def spinning_cursor():
         while True:
@@ -70,10 +70,12 @@ def weirdShit(data_string="[+] loading script", schedule=3, thrust=4):
         for x in range(len(data)):
 
             s = '\r' + data[0:x] + upperstr[x] + data[x+1:] + '\r'
-            weird_stdout(s, cdict['LIGHTGREEN_EX'])
-            weird_stdout(f"{indent}...")
-            weird_stdout(next(spinner)) 
-            weird_stdout("\r")
+            stdout_cw(s, cdict['LIGHTGREEN_EX'])
+            stdout_cw(f"{indent}...")
+            stdout_cw(next(spinner)) 
+            stdout_cw("\r")
             stdout.flush()
             time.sleep(0.5/thrust)
 
+if __name__ == '__main__':
+    graphic_gen()
