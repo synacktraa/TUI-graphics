@@ -1,13 +1,13 @@
 # Cli-Graphics
 
-> A graphic genrator inspired by metasploit framework.
+> A graphic genrator inspired by metasploit framework (but better 🤖).
 
 ---
 
 <br>
 
 ## Using the script ↴
->```python weirdshit.py```
+>python weirdshit.py
 <img width=400 src="https://i.imgur.com/07I36C7.gif">
 
 <p align="center"><img src="https://readme-typing-svg.herokuapp.com?font=IBM+Plex+Mono&color=%23C4B9F8&size=35&center=true&width=1000&height=150&lines=cool+shit,+right?"/></p>
