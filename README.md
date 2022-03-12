@@ -6,6 +6,7 @@
 
 <br>
 
+## Using the script ↴
 >```python weirdshit.py```
 <img width=400 src="https://i.imgur.com/07I36C7.gif">
 
