@@ -1,14 +1,13 @@
-from weirdshit import graphic_gen, print_cw, cdict, os
+from weirdshit import graphic_gen, print_fcw
 import threading, random
 from time import sleep
 from sys import argv
-
-os.system("")
+from colorext import fore
 
 def data_generator(data):
 
     """
-        This is just an example file for illustration and showcasing
+        This is just an exemplar script for illustration and showcasing
     """
 
     file_list = ["mom_spaghetti", "sinister", "static", "venom", "deadpool"]
@@ -17,7 +16,7 @@ def data_generator(data):
 
     for file in file_list:
         ext = random.choice(ext_list)
-        print_cw(f"[+] Attaching {file}.{ext}{' '*len(data)}", cdict['LIGHTBLACK_EX'])
+        print_fcw(f"[+] Attaching {file}.{ext}{' '*len(data)}", fore.LIGHTBLACK_EX)
         sleep(0.8)
 
 def main(data, sdl, thrust):
